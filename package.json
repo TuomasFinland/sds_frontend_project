@@ -1,0 +1,16 @@
+{
+  "name": "course_project",
+  "version": "1.0.0",
+  "description": "Course project for the Front-end course",
+  "main": "index.js",
+  "homepage": "https://TuomasFinland.github.io/Frontend-modules",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Tuomas Liimatta",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
